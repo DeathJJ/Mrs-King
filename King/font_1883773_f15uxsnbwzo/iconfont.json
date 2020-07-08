@@ -1,0 +1,16 @@
+{
+  "id": "1883773",
+  "name": "金夫人",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6388481",
+      "name": "圆",
+      "font_class": "yuan",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

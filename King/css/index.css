@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+ul,li,ol{list-style: none;display: inline-block;}
+img{width: 100%;height: 100%;display: block;}
+
+.banxin{width: 1200px;margin: auto;}
+
+/* =============标题=============== */
+.top{height: 98px;display: flex;justify-content: space-around;}
+.top .logo{width: 254px;height: 52px;display: inline-block;margin-top: 20px;}
+.top .menu{margin-top: 20px;width: 780px;height: 52px;}
+.top .menu ul{height: 52px;line-height: 52px;} 
+.top .menu ul li{margin-left: 40px;font-size: 22px;} 
+
+
+/* ==================轮播====================== */
+.carousel{width: 100%;position: relative;height: 850px;margin: auto;}
+.carousel .imgBox{width: 100%;height: 100%; position: relative;}
+.carousel  .imgBox ul{}
+.carousel .imgBox ul li{opacity: 0;transition: all 2s;}
+.carousel .imgBox ul li img{width: 100%;height: 100%;position: absolute;top: 0;left: 0;max-width:100%}
+.carousel ol {width: 200px;height: 25px;position: absolute;z-index: 3;text-align: center;left: 50%;margin-left:-100px;bottom: 40px;display: flex;justify-content: space-around;} 
+.carousel ol li{width: 25px;height: 25px;border-radius: 50%;background-color: white;border: 3px solid black;cursor: pointer;} 
+.carousel button{width: 100px;height: 100px;font-size: 50px;z-index: 2;position:absolute;top: 50%;margin-top: -50px;border: none;background: none;color: white;cursor: pointer;user-select: none; outline:none;}  
+.carousel button:nth-of-type(1){float:right;right: 0;}
+.carousel button:nth-of-type(2){float:left;left: 0;}
+.carousel ul li.active{opacity: 1;}
+.carousel ol li.active{background-color: greenyellow;}
+
+
+/* =====================公司简介=================================== */
+.hander{width: 100%;height: 680px;}
+.hander .banxin{height: 550px;margin-top: 124px;position: relative;}
+.hander .banxin .box01{width: 1127px;height: 468px;border: 1px solid rgb(175,94,100);position: absolute;top: 40px;}
+.hander .banxin .box02{width: 564px;height: 472px;position: absolute;top: 0;left: 40px;z-index: 10;}
+.hander .banxin .box03{width: 220px;height: 66px;position: absolute;right: 180px;top: 0;}
+.hander .banxin .box04{width: 684px;height: 418px;position: absolute;background-color: rgb(153,153,153);bottom: 0;right: 0;z-index: 9;color: white;}
+.hander .banxin .box04 h5{width:584px ;float: right;margin-top: 34px;border-bottom: 1px solid rgb(241,241,241);height: 24px;font-size: 14px;}
+.hander .banxin .box04 h5 span{margin-left: 20px;}
+.hander .banxin .box04 h5 span:nth-of-type(2){cursor: pointer;float: right;margin-right: 20px;}
+.hander .banxin .box04 p{width: 564px;float: right;margin-top: 24px;font-size: 14px;margin-right: 20px;text-align: justify;}
+
+
+/* ============================拍摄基地========================================== */
+.BASE{width: 100%;height: 828px;background: url(../imgs/t03.jpg) no-repeat;background-size: 100%;position: relative;}
+.BASE .bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;background-color: rgba(255, 255, 255, .8)}
+.BASE .banxin .text{width: 320px; position: absolute;z-index: 10;left: 50%;margin-left: -180px;text-align: center;top: 72px;font-size: 24px;}
+.BASE .banxin .imgBox{width: 1200px;height: 520px;top: 138px;position: absolute;}
+.BASE .banxin .imgBox .box{width: 268px;height: 520px;float: left;margin-left: 32px;position: relative;}
+.BASE .banxin .imgBox .box .box_01{width: 268px;height: 418px;overflow: hidden;}
+.BASE .banxin .imgBox .box .box_01 img{transition: all 1s;}
+.BASE .banxin .imgBox .box .box_02{width:100%;height: 102px;text-align: center;position: relative;transition: all 1s;}
+.BASE .banxin .imgBox .box .box_02 p{width: 180px;position: absolute;text-align: center;left: 50%;margin-left: -90px;}
+.BASE .banxin .imgBox .box .box_02 p:nth-of-type(1){font-size: 20px;top: 15px;}
+.BASE .banxin .imgBox .box .box_02 p:nth-of-type(2){font-size: 15px;bottom: 5px;line-height: 23px;}
+.BASE .banxin .imgBox .box .box_03{width: 100%;height:418px;background-color: rgba(0, 0, 0, .4);position: absolute;top: 0;left: 0;display: none;}
+.BASE .banxin .imgBox .box:hover .box_01 img{transform:scale(1.2);margin-top: 40px;}
+.BASE .banxin .imgBox .box:hover .box_02{position: absolute;top: 50%;margin-top: -90px;z-index: 99;}
+.BASE .banxin .imgBox .box:hover .box_02 p{color: white;}
+.BASE .banxin .imgBox .box:hover .box_02 p:nth-of-type(1){color: rgb(162,10,9);}
+.BASE .banxin .imgBox .box:hover .box_03{display: block;}
+.BASE .banxin .reading{width: 152px;height: 40px;text-align: center;background-color: rgb(162,10,9);color: white;z-index: 10;position: absolute;bottom: 50px;left: 50%;margin-left: -126px;line-height: 40px;cursor: pointer;}
+
+
+/* ====================================真实客照========================================================== */
+.GUEST{width: 100%;height:698px;position: relative;}
+.GUEST .banxin{position: relative;}
+.GUEST .banxin .text{width: 260px; position: absolute;z-index: 10;left: 50%;margin-left: -176px;text-align: center;top: 120px;font-size: 24px;}
+.GUEST .banxin .box01{width: 430px;height: 400px;position: absolute;top: 224px;left: 30px;z-index: 10;}
+.GUEST .banxin .box02{width: 1190px;height: 376px;background-color: rgb(162,10,9);position: absolute;top: 196px;}
+.GUEST .banxin .box02 h5{width:662px ;float: right;margin-top: 34px;border-bottom: 1px solid rgb(241,241,241);height: 24px;font-size: 14px;color: white;margin-right: 35px;}
+.GUEST .banxin .box02 p{width: 662px;float: right;margin-top: 24px;font-size: 14px;margin-right: 35px;color: white;text-align: justify;}
+.GUEST .banxin .box02 .reading{width: 82px;height: 24px;text-align: center;position: absolute;margin-top: 20px;background-color: white;font-size: 14px;cursor: pointer;bottom: 30px;left: 495px;color: rgb(162,10,9);line-height: 24px;}
+
+
+/* 选择摄影 */
+.nav{width: 100%;height: 112px;background: url(../imgs/bg03.png) no-repeat;background-size: 100%;position: relative;}
+.nav .box{width: 100%;height: 112px;background-color: rgba(153,153,153,.7);position: absolute;top: 0;left: 0;}
+.nav .text{width: 400px;height: 36px; position: absolute;z-index: 10;left: 50%;margin-left: -220px;text-align: center;top: 0;font-size: 22px;top: 50%;margin-top: -16px;}
+.bottom{width: 100%;height: 650px;position: relative;}
+.bottom .banxin{}
+.bottom .banxin .imgBox{width: 1200px;height: 530px;margin-top: 20px;display: flex;justify-content: space-around;}
+.bottom .banxin .imgBox .box{width: 292px;height: 396px;cursor: pointer;} 
+.bottom .banxin .imgBox .box .box_01{width: 290px;height: 396px;}
+.bottom .banxin .imgBox .box .box_02{height: 132px;width: 290px;}
+.bottom .banxin .imgBox .box .box_02 p:nth-of-type(1){font-size: 18px;color: rgb(51,51,51);padding-top: 10px;}
+.bottom .banxin .imgBox .box .box_02 p:nth-of-type(2){font-size: 16px;color: rgb(102,102,102);}
+.bottom .banxin .imgBox .box .box_02 p:nth-of-type(3){font-size: 14px;color: rgb(212,212,212);margin-top: 12px;text-align: justify;}
+.bottom .banxin .imgBox .box:hover .box_02{background-color: rgb(162,10,9);}
+.bottom .banxin .imgBox .box:hover .box_02 p{color: white;}
+.bottom .banxin .reading{width: 152px;height: 40px;text-align: center;background-color: rgb(162,10,9);color: white;z-index: 10;position: absolute;bottom: 50px;left: 50%;margin-left: -126px;line-height: 40px;cursor: pointer;}
+
+
+.banquan{height: 90px;width: 100%;background-color: rgb(102,102,102);}
+.banquan p{color: white;width: 926px;margin: auto;line-height: 90px;}

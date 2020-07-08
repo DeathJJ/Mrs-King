@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="yuan" unicode="&#58971;" d="M511.396-128C228.972-128 0.026 100.951 0.026 383.375S228.976 894.751 511.396 894.751c282.424 0 511.375-228.956 511.375-511.376 0-282.424-228.95-511.375-511.375-511.375z m0 936.033c-234.532 0-424.653-190.126-424.653-424.658 0-234.537 190.126-424.652 424.653-424.652 234.537 0 424.653 190.12 424.653 424.652 0 234.532-190.121 424.658-424.653 424.658z m0-672.998c-137.16 0-248.34 111.19-248.34 248.345s111.185 248.341 248.34 248.341c137.154 0 248.34-111.186 248.34-248.34S648.55 135.034 511.396 135.034z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
